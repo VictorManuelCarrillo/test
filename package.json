@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prepare": "husky && husky install",
     "release": "bumpp --commit --push --tag",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p custom -i CHANGELOG.md -s changelog-config.ts"
   },
   "dependencies": {
     "next": "14.2.6",
@@ -23,6 +23,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "bumpp": "^9.5.2",
+    "conventional-changelog": "^6.0.0",
     "conventional-changelog-cli": "^5.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.6",
