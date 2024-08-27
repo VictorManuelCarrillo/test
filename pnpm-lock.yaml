@@ -39,9 +39,6 @@ importers:
       conventional-changelog-cli:
         specifier: ^5.0.0
         version: 5.0.0(conventional-commits-filter@5.0.0)
-      conventional-changelog-conventionalcommits:
-        specifier: ^8.0.0
-        version: 8.0.0
       eslint:
         specifier: ^8
         version: 8.57.0
