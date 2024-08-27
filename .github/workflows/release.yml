@@ -20,9 +20,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '20'
-      - run: pnpm install
-      - run: pnpm run changelog
-      - run: pnpm run release
+      - run: npm install
+      - run: npm run changelog
+      - run: npm run release
       - name: Commit and push changelog
         run: |
           git config user.name "github-actions"
